@@ -9,10 +9,14 @@
         <module name="hibernate-examples" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="hibernate-jpa-basic" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="hibernate-examples" options="-parameters" />
+      <module name="hibernate-jpa-basic" options="-parameters" />
     </option>
   </component>
 </project>
