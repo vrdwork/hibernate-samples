@@ -1,8 +1,8 @@
-package com.howtodoinjava.demo;
+package curso.java.hibernate;
 
-import com.howtodoinjava.demo.data.EmployeeRepository;
-import com.howtodoinjava.demo.data.entity.Employee;
-import com.howtodoinjava.demo.data.entity.Task;
+import curso.java.hibernate.data.EmployeeRepository;
+import curso.java.hibernate.data.entity.Employee;
+import curso.java.hibernate.data.entity.Task;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,7 +17,7 @@ import java.util.Set;
 
 @SpringBootApplication
 @EnableJpaAuditing
-public class DemoApplication implements CommandLineRunner {
+public class HibernateExampleApp implements CommandLineRunner {
 
   private Logger logger = LoggerFactory.getLogger(this.getClass());
 
@@ -25,7 +25,7 @@ public class DemoApplication implements CommandLineRunner {
   EmployeeRepository repository;
 
   public static void main(String[] args) {
-    SpringApplication.run(DemoApplication.class, args);
+    SpringApplication.run(HibernateExampleApp.class, args);
   }
 
   @Override

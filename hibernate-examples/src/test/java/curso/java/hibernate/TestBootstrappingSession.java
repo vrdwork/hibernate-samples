@@ -1,7 +1,7 @@
-package com.howtodoinjava.demo;
+package curso.java.hibernate;
 
-import com.howtodoinjava.demo.data.EmployeeRepository;
-import com.howtodoinjava.demo.data.entity.Employee;
+import curso.java.hibernate.data.EmployeeRepository;
+import curso.java.hibernate.data.entity.Employee;
 import jakarta.transaction.Transactional;
 import org.hibernate.Session;
 import org.junit.jupiter.api.Assertions;

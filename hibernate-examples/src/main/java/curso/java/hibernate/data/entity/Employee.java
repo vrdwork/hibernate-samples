@@ -1,4 +1,4 @@
-package com.howtodoinjava.demo.data.entity;
+package curso.java.hibernate.data.entity;
 
 import jakarta.persistence.*;
 
